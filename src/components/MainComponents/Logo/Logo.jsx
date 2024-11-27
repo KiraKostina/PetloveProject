@@ -1,7 +1,7 @@
 export default function Logo() {
   return (
     <>
-      <Logo />
+      <p>PetLove</p>
     </>
   );
 }

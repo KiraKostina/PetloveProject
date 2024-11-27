@@ -1,8 +1,13 @@
-export default function SharedLayout({ children }) {
+import { Outlet } from "react-router-dom";
+import Header from "../MainComponents/Header/Header";
+
+export default function SharedLayout() {
   return (
     <div>
       <Header />
-      {children}
+      <main>
+        <Outlet />
+      </main>
     </div>
   );
 }

@@ -10,7 +10,7 @@ export default function Loader() {
         width="96"
         color="grey"
         strokeWidth="5"
-        animationDuration="5"
+        animationDuration="10"
         ariaLabel="rotating-lines-loading"
         wrapperStyle={{}}
         wrapperClass=""

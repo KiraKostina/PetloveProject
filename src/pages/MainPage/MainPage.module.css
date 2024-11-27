@@ -1,0 +1,17 @@
+.main_page {
+  width: 320px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/bg-main-mob1x.jpg");
+  background-size: cover;
+  /* min-height: 100vh; */
+  /* background-position: center; */
+}
+
+@media (min-resolution: 2dppx) {
+  .main_page {
+    background-image: url("../../images/bg-main-mob2x.jpg");
+  }
+}
