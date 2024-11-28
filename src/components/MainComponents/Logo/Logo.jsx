@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 export default function Logo() {
   return (
     <>
-      <Link to="/home" style={{ color: "#fff" }}>
-        Petlove
-      </Link>
+      <Link to="/home">Petlove</Link>
     </>
   );
 }

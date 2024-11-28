@@ -1,5 +1,5 @@
 .main_page {
-  width: 320px;
+  min-width: 320px;
   height: 100vh;
   display: flex;
   justify-content: center;
