@@ -1,0 +1,46 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.text_main {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.heart_main {
+  fill: #f6b83d;
+  width: 44px;
+  height: 44px;
+}
+
+.text_home {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.heart_home {
+  fill: #fff;
+  width: 17px;
+  height: 17px;
+}
+
+.text_other {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #262626;
+}
+
+.heart_other {
+  fill: #f6b83d;
+  width: 17px;
+  height: 17px;
+}
