@@ -1,7 +1,8 @@
 .home_title_container {
   background-color: #f6b83d;
   padding: 30px 20px 50px 20px;
-  border-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .home_title {

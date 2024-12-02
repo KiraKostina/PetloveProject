@@ -1,0 +1,23 @@
+.container {
+  margin: 0 auto;
+  padding: 10px 20px 0px 20px;
+  min-width: 320px;
+}
+
+.headerHome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6b83d;
+  padding: 18px 20px 30px 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.headerOther {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 18px 20px 30px 20px;
+}
