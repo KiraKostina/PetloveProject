@@ -3,3 +3,7 @@
   padding: 0px 20px 10px 20px;
   min-width: 320px;
 }
+
+.home_picture {
+  border-radius: 30px;
+}
