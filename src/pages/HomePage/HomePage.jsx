@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className={css.container}>
         <HomeTitle />
         <div>
-          <img src="" alt="girl with dog" />
+          <img src="../../images/girl-dog-mob1x.jpg" alt="girl with dog" />
         </div>
       </div>
     </div>
