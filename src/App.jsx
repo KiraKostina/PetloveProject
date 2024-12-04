@@ -7,6 +7,9 @@ const MainPage = lazy(() => import("./pages/MainPage/MainPage"));
 const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
 const NewsPage = lazy(() => import("./pages/NewsPage/NewsPage"));
 const LoginPage = lazy(() => import("./pages/LoginPage/LoginPage"));
+const RegistrationPage = lazy(() =>
+  import("./pages/RegistrationPage/RegistrationPage")
+);
 
 import Loader from "./components/Loader/Loader";
 import SharedLayout from "./components/SharedLayout/SharedLayout";
@@ -24,9 +27,9 @@ function App() {
             <Route path="/friends" element={<OurFriendsPage />} />
             <Route path="/profile" element={<ProfilePage />} />
 
-            <Route path="/add-pet" element={<AddPetPage />} />
+            <Route path="/add-pet" element={<AddPetPage />} /> */}
 
-            <Route path="/register" element={<RegistrationPage />} /> */}
+            <Route path="/register" element={<RegistrationPage />} />
             <Route path="/login" element={<LoginPage />} />
             {/* <Route path="*" element={<NotFoundPage />} /> */}
           </Route>
