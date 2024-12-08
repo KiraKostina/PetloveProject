@@ -1,0 +1,139 @@
+.form {
+  max-width: 280px;
+  padding: 20px;
+  text-align: left;
+  background-color: none;
+  border: none;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-bottom: 16px;
+  text-align: left;
+  color: #2f2f2f;
+}
+
+.fieldStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.label {
+  font-size: 18px;
+  color: #2f2f2f;
+  margin-bottom: 8px;
+}
+
+.field {
+  width: 100%;
+  padding: 12px 10px;
+  font-size: 16px;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  margin-top: 8px;
+  font-weight: 400;
+  position: relative;
+  transition: border-color 0.3s ease;
+  color: #407bff;
+}
+
+.field:focus {
+  outline: none;
+  border-color: #407bff;
+  box-shadow: 0 0 4px rgba(64, 123, 255, 0.5);
+}
+
+.field.error {
+  border-color: #ff4d4d;
+}
+
+.field.error:focus {
+  border-color: #ff4d4d;
+  box-shadow: none;
+}
+
+.passwordWrapper {
+  position: relative;
+}
+
+.eyeIcon {
+  position: absolute;
+  top: 14px;
+  bottom: 18px;
+  right: 11px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  stroke: #407bff;
+  fill: white;
+}
+
+.error {
+  color: #ff4d4d;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #007bff;
+}
+
+.signinLink {
+  background: none;
+  display: block;
+  border: none;
+  font-size: 16px;
+  color: #007bff;
+  cursor: pointer;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .form {
+    margin: 0 20px;
+    padding-top: 24px;
+    padding-bottom: 0;
+  }
+  .label {
+    font-size: 18px;
+    color: #2f2f2f;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .form {
+    max-width: 336px;
+    margin-left: 32px;
+    padding: 40px 0 0 0;
+  }
+  .label {
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .form {
+    margin-top: 140px;
+    margin-left: 840px;
+    padding: 0;
+    max-width: 384px;
+  }
+  .heading {
+    font-size: 26px;
+  }
+}
